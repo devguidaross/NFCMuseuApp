@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">NFC MuseudeZoologiaUnesc</string>
+    <string name="action_settings">Sair</string>
+    <string name="title_activity_login">Insira usuário e senha</string>
+    <!-- Strings related to login -->
+    <string name="prompt_login">Login</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_password">Senha muito curta!</string>
+    <string name="error_incorrect_password">Senha incorreta!</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

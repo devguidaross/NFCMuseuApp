@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "462938514930",
+    "firebase_url": "https://museunfc.firebaseio.com",
+    "project_id": "museunfc",
+    "storage_bucket": "museunfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462938514930:android:3ae929dc43f1acca13376b",
+        "android_client_info": {
+          "package_name": "com.guilhermedaros.museunfc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462938514930-hukg6da5787sinpar8qv58tme5f7vgbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRQm8VYvgLjb2pdmndx0t2T6cpvfGWC54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462938514930-hukg6da5787sinpar8qv58tme5f7vgbr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

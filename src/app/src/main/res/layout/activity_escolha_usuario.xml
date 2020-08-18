@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Acitivities.EscolhaUsuarioActivity"
+    android:background="@color/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layout_topo">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/museu1"
+                android:id="@+id/topo"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_acesso"
+                android:layout_marginBottom="50dp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_below="@+id/topo"
+                android:textSize="30dp"
+                android:text="Bem vindo ao NFC MuseudeZoologiaUnesc, qual seria o seu acesso?"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_topo"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/btn_visitante"
+                android:layout_width="192dp"
+                android:layout_height="59dp"
+                android:text="VISITANTE"
+                tools:layout_editor_absoluteX="109dp"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/colorAccent"
+                tools:layout_editor_absoluteY="195dp" />
+
+            <Button
+                android:id="@+id/btn_administrador"
+                android:layout_width="192dp"
+                android:layout_height="59dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/btn_visitante"
+                android:text="ADMINISTRADOR"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/colorAccent"
+                tools:layout_editor_absoluteX="109dp"
+                tools:layout_editor_absoluteY="268dp" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
